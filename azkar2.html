@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zikr1</title>
+    <link rel="stylesheet" href="css/forAzkar.css">
+    <script src="js/jsForMasba7a.js"></script>
+</head>
+<body>
+    <header>
+        <h1><q>الحمد الله</q></h1>
+    </header>
+    <section>
+        <div class="div-of-img">
+            <div>
+                <span id="counterOutput"></span>
+            </div>
+            <!-- <img src="assets/masba7a.jpg" class="imgOfMasba7a" usemap="#Map1"> -->
+            <svg onclick="countClicks()" width="200" height="200" usemap="#Map1">
+                <circle  
+                    cx="70" cy="70" r="50" fill="rgb(218, 198, 236)" stroke="purple" stroke-width="3"
+                />
+                <text x="70" y="75" font-size="20" text-anchor="middle" fill="rgb(73, 34, 112)">Count</text>
+            </svg>
+            <svg onclick="resetCounter()" width="200" height="200" usemap="#Map1">
+                <circle  
+                    cx="70" cy="70" r="50" fill="rgb(218, 198, 236)" stroke="purple" stroke-width="3"
+                />
+                <text x="70" y="75" font-size="20" text-anchor="middle" fill="rgb(73, 34, 112)">reset</text>
+            </svg>
+            <map name="Map1">
+                <!-- "135,100,100,180" -->
+                <area shape="circle" coords="135,100,100,180" href="" target="_blank" />
+            </map>
+            
+        </div>
+        
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,131 @@
+nav , aside{
+    font-size:30px;
+    color: rgb(42, 12, 71); 
+    background-color: rgb(218, 198, 236);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 5px;
+    /* margin-bottom: 200px; */
+}
+ul{
+    list-style-type: circle;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 320px;
+    transition: all 0.3s;
+}
+li:hover{
+    transform: scale(1.2);
+}
+header{
+    margin-top: 100px;
+}
+header h1{
+    text-align: center;
+    margin: 50px 550px 80px 550px   ;
+    padding: 50px;
+    border-radius: 20px;
+    color: rgb(73, 34, 112);
+    background-color: rgb(190, 153, 224);
+    box-shadow: 10px 10px 20px rgb(190, 153, 224);
+}
+header h3{
+    font-size: 15;
+    text-align: center;
+    margin: 50px 500px 20px 500px   ;
+    padding: 30px;
+    border-radius: 20px;
+    color: rgb(73, 34, 112);
+    background-color: rgb(205, 193, 217);
+    /* box-shadow: 5px 5px 20px rgb(190, 153, 224); */
+}
+.div-of-img{
+    text-align:center;
+    border: 3px rgb(168, 105, 226) dotted;
+    border-radius: 50px; 
+    margin-left: 550px;   
+    margin-right: 550px;  
+    padding-left: 60px; 
+}
+svg{
+    margin-top: 20px;
+    transition: all 0.3s;   
+    cursor: pointer;
+}
+svg:hover{
+    transform: scale(1.2);
+}
+.Btns{
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#counterOutput{
+    font-size: 25px;
+    color: rgb(72, 48, 94);
+    text-align: center;
+    display: inline-block;
+    padding: 20px 70px;
+    margin: 30px 100px 0px 50px;
+    border: 2px dotted rgb(168, 105, 226);
+    border-radius: 5px;
+}
+.azkar{
+    text-align: right;
+    font-size: 30px;
+    margin: 150px;
+    margin-top: 450px;
+    margin-bottom: 280px;
+}
+.azkar h1{
+    margin-bottom: 100px;
+    color: rgb(73, 34, 112);
+}
+.azkar ol li{
+    text-align: center;
+    list-style-type: none;
+    margin:10px 150px 20px 150px ;
+    padding: 10px;
+    /* padding-right: 50px; */
+    border-radius: 10px;
+    color: rgb(72, 48, 94);
+    background-color: rgb(190, 153, 224);
+    cursor: pointer;
+}
+.azkar ol a{
+    text-decoration: none;
+    transition: all 0.3s; 
+}
+.azkar ol a:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(72, 48, 94) ;
+}
+
+#prayerTime{
+    margin: 0px 50px;
+    /* border: 2px dashed rgb(168, 105, 226); */
+    border-radius: 20px;
+
+}
+table{
+    color: #351156;
+    font-size: 25px;
+    /* background-color: rgb(145, 127, 161); */
+    text-align: center;
+    margin: 20px;
+    margin-left: 200px ;
+    border: 2px dotted rgb(168, 105, 226);
+    margin-bottom: 350px;
+    
+}
+table , th , td{
+    border: 1px dashed rgb(168, 105, 226);
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+footer ul li{
+    display: inline-block;
+    margin-left: 320px;
+    transition: all 0.3s;}

@@ -1,0 +1,44 @@
+
+header h1{
+    text-align: center;
+    margin: 200px 550px  50px 550px   ;
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(73, 34, 112);
+    background-color: rgb(190, 153, 224);
+    box-shadow: 10px 10px 20px rgb(190, 153, 224);
+}
+
+.div-of-img{
+    text-align:center;
+    border: 3px rgb(168, 105, 226) dotted;
+    border-radius: 50px; 
+    margin-left: 350px;   
+    margin-right: 350px;  
+    padding-left: 60px; 
+}
+svg{
+    margin-top: 20px;
+    transition: all 0.3s;   
+    cursor: pointer;
+}
+svg:hover{
+    transform: scale(1.2);
+}
+
+.Btns{
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#counterOutput{
+    font-size: 25px;
+    color: rgb(72, 48, 94);
+    text-align: center;
+    display: inline-block;
+    padding: 20px 70px;
+    margin: 50px 100px 0px 50px;
+    border: 2px dotted rgb(168, 105, 226);
+    border-radius: 5px;
+}

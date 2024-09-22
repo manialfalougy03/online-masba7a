@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Masba7a</title>
+    <link rel="stylesheet" href="css/forMasba7a.css">
+    <script src="js/jsForMasba7a.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#main">Masba7a</a></li>
+            <li><a href="#azkar">Azkar</a></li>
+            <li><a href="#prayerTime">Prayer Time</a></li>
+        </ul>
+    </nav>
+    <header id="main" >
+        <h1>Electronic Tally Counter</h1>
+        <h3><q>لا إله إلا الله وحده لا شريك له له الملك وله الحمد وهو على كل شئ قدير</q></h3>
+    </header>
+    <section>
+        <div class="div-of-img">
+            <div>
+                <span id="counterOutput"></span>
+            </div>
+            <!-- <img src="assets/masba7a.jpg" class="imgOfMasba7a" usemap="#Map1"> -->
+            <svg onclick="countClicks()" width="200" height="200" usemap="#Map1">
+                <circle  
+                    cx="70" cy="70" r="50" fill="rgb(218, 198, 236)" stroke="purple" stroke-width="3"
+                />
+                <text x="70" y="75" font-size="20" text-anchor="middle" fill="rgb(73, 34, 112)">Count</text>
+            </svg>
+            <svg onclick="resetCounter()" width="200" height="200" usemap="#Map1">
+                <circle  
+                    cx="70" cy="70" r="50" fill="rgb(218, 198, 236)" stroke="purple" stroke-width="3"
+                />
+                <text x="70" y="75" font-size="20" text-anchor="middle" fill="rgb(73, 34, 112)">reset</text>
+            </svg>
+            <map name="Map1">
+                <!-- "135,100,100,180" -->
+                <area shape="circle" coords="135,100,100,180" href="" target="_blank" />
+            </map>
+        </div>    
+    </section>
+
+    <section id="azkar" class="azkar">
+        <h1><bdi>الأذكار :</bdi></h1>
+        <ol>
+            <a href="azkar1.html" target="_blank"><li>سبحان الله</li></a>
+            <a href="azkar2.html"><li>الحمد لله</li></a>
+            <a href="azkar3.html"><li>لا اله إلا الله</li></a>
+            <a href="azkar4.html"><li>الله أكبر</li></a>
+            <a href="azkar5.html"><li>لا حول ولا قوة إلا بالله العلي العظيم</li></a>
+            <a href="azkar6.html"><li>استغفر الله العظيم</li></a>
+            <a href="azkar7.html"><li>لا اله إلا أنت سبحانك إني كنت من الظالمين</li></a>
+        </ol>
+    </section>
+
+    <section>
+        <header>
+            <h1>Prayer Time:</h1>
+        </header>
+        <section id="prayerTime">
+            <table>
+                <tr>
+                    <th>Fajr</th>
+                    <th>Dhuhr</th>
+                    <th>Asr</th>
+                    <th>Maghrib</th>
+                    <th>Isha</th>
+                </tr>
+                <tr>
+                    <td><time>05:13 a.m</time></td>
+                    <td><time>12:47 pm</time></td>
+                    <td><time>04:13 pm</time></td>
+                    <td><time>06:50 pm</time></td>
+                    <td><time>08:01 pm</time></td>
+                </tr>
+            </table>
+        </section>
+
+        <footer>
+            <aside>
+                <ul>
+                    <li><a href="#main">Masba7a</a></li>
+                    <li><a href="#azkar">Azkar</a></li>
+                    <li><a href="#prayerTime">Prayer Time</a></li>
+                </ul>
+            </aside>
+        </footer>
+    </section>
+</body>
+</html>
